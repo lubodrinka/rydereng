@@ -383,7 +383,7 @@ enx:
     Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
         If MsgBox("are you sure", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
             My.Settings.heslo = Nothing
-            ryder.Button37.Show()
+
         End If
 
 

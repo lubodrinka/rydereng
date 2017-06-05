@@ -5993,7 +5993,7 @@ Next1:
         End Try
     End Sub
 
-    Private Sub Button37_Click(sender As System.Object, e As System.EventArgs) 
+    Private Sub Button37_Click(sender As System.Object, e As System.EventArgs)
         Form10.Show()
     End Sub
     Class ListViewItemComparer

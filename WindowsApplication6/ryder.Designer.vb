@@ -1,10 +1,10 @@
 ﻿
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ryder
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -21,19 +21,19 @@ Partial Class ryder
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ryder))
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim DataPoint1 As System.Windows.Forms.DataVisualization.Charting.DataPoint = New System.Windows.Forms.DataVisualization.Charting.DataPoint(0R, 0R)
-        Dim DataPoint2 As System.Windows.Forms.DataVisualization.Charting.DataPoint = New System.Windows.Forms.DataVisualization.Charting.DataPoint(0R, 0R)
-        Dim DataPoint3 As System.Windows.Forms.DataVisualization.Charting.DataPoint = New System.Windows.Forms.DataVisualization.Charting.DataPoint(0R, 0R)
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim DataPoint4 As System.Windows.Forms.DataVisualization.Charting.DataPoint = New System.Windows.Forms.DataVisualization.Charting.DataPoint(0R, 0R)
+        Dim DataPoint5 As System.Windows.Forms.DataVisualization.Charting.DataPoint = New System.Windows.Forms.DataVisualization.Charting.DataPoint(0R, 0R)
+        Dim DataPoint6 As System.Windows.Forms.DataVisualization.Charting.DataPoint = New System.Windows.Forms.DataVisualization.Charting.DataPoint(0R, 0R)
+        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend4 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.PageSetupDialog1 = New System.Windows.Forms.PageSetupDialog()
@@ -1433,33 +1433,33 @@ Partial Class ryder
         Me.Chart1.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.BottomRight
         Me.Chart1.BackImageTransparentColor = System.Drawing.Color.Gainsboro
         Me.Chart1.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.Scaled
-        ChartArea1.Area3DStyle.Enable3D = True
-        ChartArea1.BackColor = System.Drawing.Color.Transparent
-        ChartArea1.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea1)
-        Legend1.Alignment = System.Drawing.StringAlignment.Far
-        Legend1.AutoFitMinFontSize = 5
-        Legend1.BackColor = System.Drawing.Color.Transparent
-        Legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom
-        Legend1.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row
-        Legend1.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend1)
+        ChartArea3.Area3DStyle.Enable3D = True
+        ChartArea3.BackColor = System.Drawing.Color.Transparent
+        ChartArea3.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea3)
+        Legend3.Alignment = System.Drawing.StringAlignment.Far
+        Legend3.AutoFitMinFontSize = 5
+        Legend3.BackColor = System.Drawing.Color.Transparent
+        Legend3.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom
+        Legend3.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row
+        Legend3.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend3)
         Me.Chart1.Location = New System.Drawing.Point(681, 224)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None
         Me.Chart1.PaletteCustomColors = New System.Drawing.Color() {System.Drawing.Color.GreenYellow, System.Drawing.Color.Crimson, System.Drawing.Color.SteelBlue}
-        Series1.ChartArea = "ChartArea1"
-        Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie
-        Series1.IsValueShownAsLabel = True
-        Series1.Legend = "Legend1"
-        Series1.Name = "Series1"
-        DataPoint1.Label = "0"
-        DataPoint2.Label = "1"
-        DataPoint3.Label = "2"
-        Series1.Points.Add(DataPoint1)
-        Series1.Points.Add(DataPoint2)
-        Series1.Points.Add(DataPoint3)
-        Me.Chart1.Series.Add(Series1)
+        Series3.ChartArea = "ChartArea1"
+        Series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie
+        Series3.IsValueShownAsLabel = True
+        Series3.Legend = "Legend1"
+        Series3.Name = "Series1"
+        DataPoint4.Label = "0"
+        DataPoint5.Label = "1"
+        DataPoint6.Label = "2"
+        Series3.Points.Add(DataPoint4)
+        Series3.Points.Add(DataPoint5)
+        Series3.Points.Add(DataPoint6)
+        Me.Chart1.Series.Add(Series3)
         Me.Chart1.Size = New System.Drawing.Size(260, 206)
         Me.Chart1.TabIndex = 41
         Me.Chart1.Text = "Chart1"
@@ -1880,40 +1880,40 @@ Partial Class ryder
         '
         'Chart2
         '
-        ChartArea2.Area3DStyle.Enable3D = True
-        ChartArea2.Area3DStyle.Inclination = 0
-        ChartArea2.Area3DStyle.IsRightAngleAxes = False
-        ChartArea2.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic
-        ChartArea2.Area3DStyle.WallWidth = 2
-        ChartArea2.BorderColor = System.Drawing.Color.White
-        ChartArea2.Name = "ChartArea1"
-        Me.Chart2.ChartAreas.Add(ChartArea2)
-        Legend2.BackColor = System.Drawing.Color.Transparent
-        Legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom
-        Legend2.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Legend2.HeaderSeparatorColor = System.Drawing.Color.White
-        Legend2.ItemColumnSeparatorColor = System.Drawing.Color.White
-        Legend2.Name = "Legend1"
-        Legend2.TitleBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Legend2.TitleForeColor = System.Drawing.Color.White
-        Legend2.TitleSeparatorColor = System.Drawing.Color.White
-        Me.Chart2.Legends.Add(Legend2)
+        ChartArea4.Area3DStyle.Enable3D = True
+        ChartArea4.Area3DStyle.Inclination = 0
+        ChartArea4.Area3DStyle.IsRightAngleAxes = False
+        ChartArea4.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic
+        ChartArea4.Area3DStyle.WallWidth = 2
+        ChartArea4.BorderColor = System.Drawing.Color.White
+        ChartArea4.Name = "ChartArea1"
+        Me.Chart2.ChartAreas.Add(ChartArea4)
+        Legend4.BackColor = System.Drawing.Color.Transparent
+        Legend4.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom
+        Legend4.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Legend4.HeaderSeparatorColor = System.Drawing.Color.White
+        Legend4.ItemColumnSeparatorColor = System.Drawing.Color.White
+        Legend4.Name = "Legend1"
+        Legend4.TitleBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Legend4.TitleForeColor = System.Drawing.Color.White
+        Legend4.TitleSeparatorColor = System.Drawing.Color.White
+        Me.Chart2.Legends.Add(Legend4)
         Me.Chart2.Location = New System.Drawing.Point(0, 225)
         Me.Chart2.Name = "Chart2"
         Me.Chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel
-        Series2.ChartArea = "ChartArea1"
-        Series2.EmptyPointStyle.LabelForeColor = System.Drawing.Color.Green
-        Series2.LabelBackColor = System.Drawing.Color.Yellow
-        Series2.LabelBorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Series2.LabelForeColor = System.Drawing.SystemColors.Highlight
-        Series2.Legend = "Legend1"
-        Series2.MarkerBorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Series2.MarkerColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Series2.Name = "Series1"
-        Series2.ShadowColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Series2.SmartLabelStyle.CalloutLineColor = System.Drawing.Color.DarkRed
-        Series2.YValuesPerPoint = 2
-        Me.Chart2.Series.Add(Series2)
+        Series4.ChartArea = "ChartArea1"
+        Series4.EmptyPointStyle.LabelForeColor = System.Drawing.Color.Green
+        Series4.LabelBackColor = System.Drawing.Color.Yellow
+        Series4.LabelBorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Series4.LabelForeColor = System.Drawing.SystemColors.Highlight
+        Series4.Legend = "Legend1"
+        Series4.MarkerBorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Series4.MarkerColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Series4.Name = "Series1"
+        Series4.ShadowColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Series4.SmartLabelStyle.CalloutLineColor = System.Drawing.Color.DarkRed
+        Series4.YValuesPerPoint = 2
+        Me.Chart2.Series.Add(Series4)
         Me.Chart2.Size = New System.Drawing.Size(667, 210)
         Me.Chart2.TabIndex = 191
         Me.Chart2.Text = "Chart2"
@@ -2400,5 +2400,4 @@ Partial Class ryder
     Friend WithEvents Timer3 As System.Windows.Forms.Timer
     Friend WithEvents Timer4 As System.Windows.Forms.Timer
     Friend WithEvents PrintPreviewDialog1 As System.Windows.Forms.PrintPreviewDialog
-
 End Class
